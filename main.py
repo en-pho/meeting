@@ -52,7 +52,7 @@ image_exposed = image_aperture * exposure_time
 
 
 # --- ISO: noise amplification (does NOT add information)
-noise_variance = ISO / 20000
+noise_variance = ISO / 2000000
 image_noisy = random_noise(image_exposed, var=noise_variance)
 
 
